@@ -1,4 +1,5 @@
 import { useModal } from "../hooks/useModal"
+
 const ShowModal = ({title, children}) => {
   const {isModal, onClose} = useModal();
   return (

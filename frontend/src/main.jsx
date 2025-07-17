@@ -4,7 +4,7 @@ import './index.css'
 import App from './App.jsx'
 import { BrowserRouter } from 'react-router-dom'
 import { Toaster } from 'react-hot-toast'
-import ShowModal from './components/showModal.jsx'
+import ShowModal from './components/ShowModal.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
