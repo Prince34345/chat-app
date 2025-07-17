@@ -1,12 +1,5 @@
-import {
-  UserCircle2,
-  MessageSquareText,
-  Send,
-  Info,
-  Paperclip,
-  Smile,
-} from "lucide-react";
-import ShowModal from "./showModal";
+
+import ShowModal from "./ShowModal";
 
 import { useChat } from "../hooks/useChat";
 import Sidebar from "./Sidebar";
