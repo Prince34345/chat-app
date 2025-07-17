@@ -1,4 +1,3 @@
-import React, { useEffect } from 'react'
 import { useAuth } from '../hooks/useAuth'
 import { useChat } from '../hooks/useChat';
 import { UserCircle2 } from 'lucide-react';

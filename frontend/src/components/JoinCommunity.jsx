@@ -1,6 +1,5 @@
 export default function JoinCommunityGrid() {
   const boxes = Array.from({ length: 9 }, (_, i) => i);
-  const id = 0
   return (
     <div className="grid grid-cols-3 gap-6 p-10">
       {boxes.map((_, i) => {

@@ -1,4 +1,3 @@
-import React from 'react';
 import { MessageCircle, MessageSquare } from 'lucide-react';
 import { useAuth } from '../hooks/useAuth';
 import {UserCheck2, LogOutIcon} from 'lucide-react'

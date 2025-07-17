@@ -1,5 +1,5 @@
-import React, { useState } from "react";
-import { User, Mail, Phone, MapPin, Upload } from "lucide-react";
+import { useState } from "react";
+import { User, Mail,  Upload } from "lucide-react";
 import { useAuth } from "../hooks/useAuth";
 import placeholderImg from '../assets/img.jpg';
 export default function ProfileSection() {

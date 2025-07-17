@@ -1,12 +1,9 @@
 import { UserCircle2 } from "lucide-react";
 import { useChat } from "../hooks/useChat";
-import { useAuth } from "../hooks/useAuth";
 import { useEffect } from "react";
-import Skeleton from "./Skeleton/Skeleton";
 import Online from "./Online";
 const Sidebar = () => {
   const { selectedUser, getUsers, users, isUsersLoading, setSelectedUser } = useChat();
-  const { onlineUsers } = useAuth();
   useEffect(() => {
     getUsers();
   }, [getUsers]);
