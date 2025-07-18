@@ -6,7 +6,6 @@ import path from 'path';
 import cookieParser from 'cookie-parser'
 import dotenv from 'dotenv';
 import cors from 'cors';
-import bodyParser from 'body-parser'
 import { app , server} from './lib/socket.io.js';
 
 dotenv.config();
@@ -20,8 +19,6 @@ app.use(cors({
     origin: "http://localhost:5173",
     credentials: true,
 }));
-app.use(bodyParser.json({limit: "10mb"}));
-app.use(bodyParser.urlencoded({limit: "10mb", extended: true}));
 app.use("/api/auth", authRoutes);
 app.use("/api/messages", messageRoutes);
 
